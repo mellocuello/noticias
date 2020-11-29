@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Suscripci&oacute;n</title>
+		<link href="css/Estilo.css" rel="stylesheet" typr="text/css">
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<header id="Principal">
+			<h1>Periodico <i>INFO-news</i></h1>
+			<nav id="Menu" class="menu">
+				<input type="checkbox" id="botonMenu">
+				<label for="botonMenu"><img src="images/menu.png">
+				</label>	
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="nacionales.html">Nacionales</a></li>
+					<li><a href="mundiales.html">Mundiales</a></li>
+					<li><a href="deportes.html">Deportes</a></li>
+					<li><a href="entretenimiento.html">Entretenimiento</a></li>
+					<li><a href="Formulario1.html">Suscr&iacute;bete</a></li>
+					<li><a href="Formulario2.html">&Uacute;netenos</a></li>
+					<li><a href="dedicatoria.html">Dedicatoria</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="General">
+			<article id="Info">
+				<h11>Beneficios para suscriptores</h11>
+				<p>Suscr&iacute;bete y disfruta m&aacute;s de 3.500 contenidos nuevos con informaci&oacute;n confiable, relevante y &uacute;til, como solo la sala de redacci&oacute;n m&aacute;s grande de los peri&oacute;dicos del pa&iacute;s y ganadora de m&uacute;ltiples premios, nacionales e internacionales, te puede entregar.</p>
+			</article>
+			<article class="form-register" id="Suscripcion">
+				<h8>Suscr&iacute;bete</h8>
+				<form action="index.html" method="post" id="Datos" name="frmCliente" onSubmit="return ValidarForm();">
+					<label>Nombre:</label>
+					<input class="controls" type="text" name="nombre" id="Nombres">
+					<label>Apellido:</label>
+					<input class="controls" type="text" name="apellidos" id="Apellidos">
+					<label>C&eacute;dula:</label>
+					<input class="controls" type="text" name="cedula" id="Cedula">
+					<label>Tel&eacute;fono:</label>
+					<input class="controls" type="text" name="telefono" id="Telefono">
+					<label>Correo:</label>
+					<input class="controls" type="email" name="correo" id="Correo">
+					<input class="botons" type="submit" value="Suscribirme">
+				</form>
+			</article>
+		</section>
+		<footer id="Final">
+			<p>B&uacute;scanos en todas las redes sociales como:</p>
+			<p><img src="images/twitter.png">info_news</p>
+			<p><img src="images/instragram.png">info_noticias</p>
+			<p><img src="images/facebook.png">info_news</p>
+			<p>Cont&aacute;ctanos a trav&eacute;s de nuestro correo electr&oacute;nico: info@noticias.do</p>
+		</footer>
+	</body>
+</html>
